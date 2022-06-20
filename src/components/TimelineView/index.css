@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg-container {
+  display: flex;
+  justify-content: center;
+}
+.timeline-view-container {
+  font-family: 'Roboto';
+  padding: 16px;
+}
+@media (min-width: 768px) {
+  .timeline-view-container {
+    width: 80%;
+  }
+}
+.main-heading-1 {
+  color: #1e293b;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 26px;
+}
+.main-heading-2 {
+  text-align: center;
+  color: #2b237c;
+  margin-bottom: 40px;
+}
